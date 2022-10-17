@@ -13,3 +13,5 @@ The android mobile application installer is distributed as an APK (Android Packa
 ### Metadata Package
 A metadata package is a pre-configured template of DHIS2 metadata that can be installed on standalone instance or integrated into a country or organization's existing DHIS2. The process of installing a metadata package is well documented and can be found <a href="https://docs.dhis2.org/en/topics/metadata/immunization/immunization-aggregate/installation.html">here</a>
 ## Configuring the Mobile Application
+Configurung the MRDQA app requires one to point the app to a DHIS2 server. In the configuration page, supply DHIS2 URL, username and password so the app can pull in Health facilities and supervision related data elements.<br>
+<u>NB:</u> It is import you select the Health facility level for the app to properly pull in health facilities.
